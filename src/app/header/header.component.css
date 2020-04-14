@@ -20,26 +20,47 @@ li {
     justify-content: center;
 }
 
-i {
+.div-recherche {
+    display: flex;
+    align-items: center;
+    border: solid 1px grey;
+    border-radius: 3px;
+    width: 50%;
+}
+
+/*i {
     border-radius: 0px 3px 3px 0px;
-    border: 1px solid grey;
     font-size: 36.5px;
     color:lightgray;
+    border-left: 1px solid;
 }
 
 i:hover{
     background-color: lightgrey;
     color:grey;
+} */
+
+ input {
+    border:none;
+    
+} 
+
+button {
+    border:none;
+    background-color: transparent;
+    border-left: solid 1px lightgray;
+    padding: 5px 5px 5px 5px;
 }
 
-input {
-    border-radius: 3px 0px 0px 3px;
-    border:solid;
-    border-color:grey;
+button:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    
 }
 
 
 .champ-recherche {
     font-size: 16px;
-    padding: 7px 10px 10px 3px;
+    padding: 7px 5px 11px 3px;
+    width: 100%;
 }
