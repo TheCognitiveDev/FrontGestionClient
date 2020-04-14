@@ -1,0 +1,45 @@
+.menu {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+.item {
+    padding: 15px;
+}
+
+.nav-recherche {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    border-radius: 0px 3px 3px 0px;
+    border: 1px solid grey;
+    font-size: 36.5px;
+    color:lightgray;
+}
+
+i:hover{
+    background-color: lightgrey;
+    color:grey;
+}
+
+input {
+    border-radius: 3px 0px 0px 3px;
+    border:solid;
+    border-color:grey;
+}
+
+
+.champ-recherche {
+    font-size: 16px;
+    padding: 7px 10px 10px 3px;
+}
